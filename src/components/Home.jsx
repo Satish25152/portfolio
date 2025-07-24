@@ -13,7 +13,7 @@ function Home() {
   useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration in ms
-      once: true, // animation only once on scroll
+      once: false, // animation only once on scroll
     });
   }, []);
   return (
