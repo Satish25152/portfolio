@@ -5,7 +5,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="p-5">
+    <div data-aos="fade-left" className="p-5">
       <h2 className="text-3xl font-bold text-teal-300 mb-8 flex items-center gap-3">
         <FontAwesomeIcon icon={faContactBook} className="h-8 w-8" />
         Contact

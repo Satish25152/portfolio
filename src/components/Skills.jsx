@@ -26,7 +26,7 @@ function Skills() {
   ]
 
   return (
-    <div className='p-5'>
+    <div data-aos="fade-right" className='p-5'>
       <h2 className='text-3xl md:text-4xl font-bold text-teal-300 mb-10 flex items-center gap-3'>
         <FontAwesomeIcon icon={faGears} className='h-8 w-8 text-teal-300' />
         Skills

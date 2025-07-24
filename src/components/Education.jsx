@@ -16,7 +16,7 @@ function Education() {
   ]
 
   return (
-    <div className='p-5 flex-1'>
+    <div data-aos="fade-up" className='p-5 flex-1'>
         <h2 className='text-3xl font-bold text-teal-300 mb-8 flex items-center gap-2'>
           <FontAwesomeIcon icon={faUserGraduate} className='h-8 w-8 text-teal-300' /> Education
         </h2>
