@@ -16,16 +16,16 @@ function Education() {
   ]
 
   return (
-    <div className='p-5 flex-1 md:ps-0'>
-        <h2 className='text-3xl font-bold text-blue-500 mb-8 flex items-center gap-2'>
-          <FontAwesomeIcon icon={faUserGraduate} className='h-8 w-8 text-blue-500' /> Education
+    <div className='p-5 flex-1'>
+        <h2 className='text-3xl font-bold text-teal-300 mb-8 flex items-center gap-2'>
+          <FontAwesomeIcon icon={faUserGraduate} className='h-8 w-8 text-teal-300' /> Education
         </h2>
         <div className='flex flex-col md:flex-row gap-5'>
           {education.map((exp, idx) => (
-            <div key={idx} className='bg-white border-l-4 border-green-500 shadow-md rounded-lg p-5 flex-1'>
-              <p className='text-xl font-semibold text-blue-500'>{exp.title}</p>
-              <p className='text-gray-600 italic'>{exp.institution}</p>
-              <p className='text-gray-700 mt-1'>{exp.duration}</p>
+            <div key={idx} className='bg-white/10 border-l-4 border-green-300 shadow-md rounded-lg p-5 flex-1'>
+              <p className='text-xl font-semibold text-teal-300'>{exp.title}</p>
+              <p className='italic'>{exp.institution}</p>
+              <p className='mt-1'>{exp.duration}</p>
             </div>
           ))}
         </div>
