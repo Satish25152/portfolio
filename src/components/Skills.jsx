@@ -4,9 +4,23 @@ import ReactImg from '../assets/React.png'
 import FlutterImg from '../assets/Flutter.png'
 import PhpImg from '../assets/PHP.png'
 import PostgreSQLImg from '../assets/Postgresql.png'
+import PythonImg from '../assets/Python.png'
+import CSharpImg from '../assets/CSharp.png'
 
 function Skills() {
   const skills = [
+    {
+      title: 'Python',
+      image: PythonImg
+    },
+    {
+      title: 'PHP',
+      image: PhpImg
+    },
+    {
+      title: 'C#',
+      image: CSharpImg
+    },
     {
       title: 'React Js',
       image: ReactImg
@@ -14,10 +28,6 @@ function Skills() {
     {
       title: 'Flutter',
       image: FlutterImg
-    },
-    {
-      title: 'PHP',
-      image: PhpImg
     },
     {
       title: 'PostgreSQL',
