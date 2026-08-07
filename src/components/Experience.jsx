@@ -7,7 +7,7 @@ function Experience() {
       section: 'Experience',
       title: 'Software Engineer',
       company: 'AutoSec NextGen Systems',
-      duration: 'Aug 2025 - Present'
+      duration: 'Aug 2025 - Jul 2026'
     },
     {
       section: 'Experience',
